@@ -1,8 +1,11 @@
 ``set`` Data Structure
 ----------------------
 
-``set`` is a really useful data structure. ``sets`` behave mostly like
-lists with the distinction that they can not contain duplicate values.
+``set`` is a really useful data structure. ``set`` object is
+an *unordered* collection of *distinct* *hashable* objects. Unlike
+``list``, ``set`` does not contain duplicate elements, cannot contain
+mutable elements, and its elements cannot be accessed by index
+(you have to iterate over them instead).
 It is really useful in a lot of cases. For instance you might want to
 check whether there are duplicates in a list or not. You have two
 options. The first one involves using a ``for`` loop. Something like
